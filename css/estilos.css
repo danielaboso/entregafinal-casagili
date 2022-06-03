@@ -1,0 +1,110 @@
+body {
+    font-family: 'PT Sans', sans-serif;
+}
+
+.fondo {
+    background-color: #e8e8e8;
+}
+
+.bg-green {
+    background-color: #389d89;
+}
+
+.bg-orange {
+    background-color: #db5534b0;
+}
+.bg-beige {
+    background-color: #f1eeee;
+}
+
+
+.contenedor {
+    padding: 10px;
+    display: inline-block;
+}
+
+.nav-item:hover {
+    background-color: #389d89;
+}
+
+#galeria .col-lg-4 {
+    background-color: #f1eeee;
+    margin: 0 !important;
+    padding: 15px;
+}
+
+#galeria img {
+    width: 100%;
+    height: 250px;
+}
+
+#galeria img:hover {
+    border: 2px solid #389d89;
+
+}
+
+.texto p{
+    text-align: justify;
+
+}
+
+.pie-pagina {
+    width: 100%;
+    background-color: #389d89;
+}
+
+.pie-pagina .grupo-1 {
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 45px 30px 30px 50px;
+}
+.pie-pagina .grupo-1 .box h2{
+    font-size: 20px;
+}
+
+.pie-pagina .grupo-1 .box figure {
+    padding: 10px;
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pie-pagina .grupo-1 .box figure img {
+    width: 100px;
+}
+
+.pie-pagina .grupo-1 .redes a {
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #a9ded3;
+    background-color: #db5534b0;
+    text-align: center;
+    transition: all 300ms ease;
+}
+
+.pie-pagina .grupo-1 .redes a:hover {
+    color: white;
+}
+
+.pie-pagina .grupo-2 {
+    background-color: #db5534b0;
+    padding: 15px 10px;
+    text-align: center;
+    color: white;
+}
+
+@media screen and (max-width:800px) {
+    .pie-pagina .grupo-1 {
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
+        padding: 35px 0px;
+    }
+}
